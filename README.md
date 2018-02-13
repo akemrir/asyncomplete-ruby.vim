@@ -22,3 +22,8 @@ call asyncomplete#register_source(asyncomplete#sources#ruby#get_source_options({
       \ 'completor': function('asyncomplete#sources#ruby#completor'),
       \ }))
 ```
+
+
+#### Todo
+
+* Implementation of startcol to allow suggestions from middle of line
