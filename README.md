@@ -3,6 +3,8 @@ ruby source for asyncomplete.vim
 
 Provide ruby completions for [asyncomplete.vim](https://github.com/prabirshrestha/asyncomplete.vim)
 
+Distionary source thanks to fishbullet/deoplete-ruby
+
 ### Installing
 
 ```viml
