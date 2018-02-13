@@ -8,7 +8,8 @@ function! asyncomplete#sources#ruby#completor(opt, ctx) abort
     let l:col = a:ctx['col']
     let l:typed = a:ctx['typed']
 
-    let l:kw = matchstr(l:typed, '\v\S+$')
+    " let l:kw = matchstr(l:typed, '\v\S+$')
+    let l:kw = substitute(split(l:typed, '\.', 1)[-1], ' ', '', 'g')
     let l:kwlen = len(l:kw)
 
     let l:startcol = l:col - l:kwlen
