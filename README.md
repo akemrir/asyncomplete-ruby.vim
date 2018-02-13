@@ -12,8 +12,6 @@ Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'akemrir/asyncomplete-ruby.vim'
 ```
 
-asyncomplete-ruby.vim have provided lists of keywords/methods.
-
 #### Registration
 
 ```viml
